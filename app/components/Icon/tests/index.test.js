@@ -4,7 +4,8 @@ import { shallow } from 'enzyme';
 import Icon from '../index';
 
 const icon = 'ControlsWhite';
-const width = 17, height = 17;
+const width = 17;
+const height = 17;
 const renderComponent = (props = {
   icon,
   width,
