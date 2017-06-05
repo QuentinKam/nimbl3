@@ -22,11 +22,4 @@ describe('<App />', () => {
     );
     expect(renderedComponent.contains(children)).toBe(true);
   });
-
-  it('should render the footer', () => {
-    const renderedComponent = shallow(
-      <App />
-    );
-    expect(renderedComponent.find(Footer).length).toBe(1);
-  });
 });
