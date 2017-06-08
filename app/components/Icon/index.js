@@ -19,8 +19,8 @@ const Icon = ({
 
 Icon.propTypes = {
   icon: React.PropTypes.string.isRequired,
-  width: React.PropTypes.number.isRequired,
-  height: React.PropTypes.number.isRequired,
+  width: React.PropTypes.number,
+  height: React.PropTypes.number,
 };
 
 export default Icon;

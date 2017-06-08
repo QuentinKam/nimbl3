@@ -7,13 +7,12 @@ import NavBar from './NavBar';
 import NavFooter from './NavFooter';
 
 const HeaderWrapper = styled.div `
-    height: 100%;
+    height: 100vh;
     width: 247px;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
     background-color: white;
-    max-height: 100vh;
 `;
 
 class Header extends React.Component { // eslint-disable-line react/prefer-stateless-function
